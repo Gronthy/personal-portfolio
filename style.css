@@ -1,0 +1,192 @@
+#name-color {
+  color: rgb(37, 106, 146);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p{
+  font-weight: 700;
+}
+
+.button{
+  text-decoration: none;
+  background-image: linear-gradient(45deg, lightblue,purple);
+  color: azure;
+  border-radius: 5px;
+  padding: 2px;
+  text-align: center;
+}
+
+.half{
+  display: inline-block;
+  width: 35%;
+  margin: 3%;
+  padding: 3%;
+  
+}
+section{
+  height: 500px;
+}
+
+img{
+  height: 400px;
+  width: 400px;
+}
+
+/* .first{
+  background-image: url(./images/bg1.jpg);
+} */
+
+.pic{
+  height: 250px;
+  width: 250px;
+}
+
+h2{
+  color: rgb(138, 54, 71);
+  font-size: 30px;
+  font-weight: 1000;
+ 
+}
+
+.button-2{
+  text-decoration: none;
+  background-image: linear-gradient(45deg,rgb(153, 114, 245)  ,rgb(58, 6, 78));
+  color: rgb(221, 206, 220);
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  
+}
+
+.quarter{
+  float: left;
+  margin-left: 15px;
+  border: 2px solid rgb(161, 150, 230);
+  height: 400px;
+  width: 23%;
+  text-align: center;
+  border-radius: 5px;
+
+}
+.third{
+  background-image: linear-gradient(0deg,white, lightblue,white);
+    
+  }
+
+    #favourite{
+      text-align: center;
+      font-weight: 1000;
+    }
+  /* section{
+    background-image: url(./images/side1.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+  } */
+  .quarter img{
+    width: 80%;
+    height: 40%;
+    border-radius: 5px;
+  }
+
+.fourth{
+  background-image: url(./images/bg1.jpg);
+  color: rgb(75, 53, 95);
+  background-repeat: no-repeat;
+  background-position: right;
+  
+  
+}
+.first-half{
+  float: left;
+  margin: 30px;
+  
+  height: 200px;
+  width: 40%;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 5px 10px 40px #778899;
+  
+  
+  
+}
+.second-half{
+  float: left;
+  margin:30px;
+  border: 2px solid rgb(161, 150, 230);
+  height: 200px;
+  width: 40%;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 5px 10px 40px rgb(61, 149, 236);
+  background-color: lightblue;
+  color: purple;
+}
+.container img {
+ width: 80%;
+ height: 40%;
+ margin-left: 100px;
+
+}
+
+.container{
+  position: relative;
+}
+
+.text{
+  position: absolute;
+  bottom: 20%;
+  left: 15%;
+  color: aliceblue;
+
+}
+.chat-button{
+  position: absolute;
+  bottom: 30%;
+  right: 25%;
+  
+}
+
+.button-3{
+  text-decoration: none;
+  background-image: linear-gradient(45deg,rgb(153, 114, 245)  ,rgb(199, 33, 221));
+  color: rgb(221, 206, 220);
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  font-weight: 700;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+footer{
+  text-align: center;
+  font-size: x-large;
+  background-image: linear-gradient(180deg , white , lightblue);
+
+}
+.design img{
+  width: 40px;
+  height: 40px;
+}
+#center{
+  text-align: center;
+}
+#four1-1{
+  border-left: 5px solid ;
+  border-image: linear-gradient(lightblue,purple);
+  border-image-slice: 1;
+  background-image: linear-gradient(white,rgb(240, 207, 240));
+}
+#four1-2{
+  border-right: 5px solid ;
+  border-image: linear-gradient(purple,lightblue);
+  border-image-slice: 1;
+  background-image: linear-gradient(rgb(235, 208, 235) ,white);
+}
